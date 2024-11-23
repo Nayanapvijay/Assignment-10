@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="box">
+    <form id="registerform" >
+        <h1 class = "text-center text-decoration-underline mb-5">Sign Up</h1>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Username"  >
+        <span id="usernameError"></span>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"placeholder="email-id" >
+        <span id="emailError"></span>
+
+        <label for="Age">Age:</label>
+        <input type="number" id="age" name="age" placeholder="Age" >
+        <span id="ageError"></span>
+
+        <label for="Password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Password" >
+        <span id="icon" style="color: black;"><i class="bi bi-eye"></i></span>
+        <span id="passwordError"></span>
+
+        <label for="confirmpwd">Confirm Password:</label>
+        <input type="password" id="confirmpwd" placeholder="Confirm password">
+        <span id="icon2" style="color: black;"><i class="bi bi-eye"></i></span>
+        <span id="confirmpwdError"></span>
+        
+        <button type="submit"><a href="index.html" style="color: white;">Register</a></button>
+        <p>Already have an account? Login</p>
+
+    </form>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>

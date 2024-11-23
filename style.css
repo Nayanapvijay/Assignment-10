@@ -1,0 +1,68 @@
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(98, 158, 98);
+    
+}
+label{
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+input{
+    
+    margin-bottom: 10px;
+    width: 200px;
+    max-width: 100%;
+padding:8px;
+}
+button{
+    padding: 10px;
+    background-color: rgb(61, 61, 123);
+    color: white;
+    width: 200px;
+    max-width: 100%;
+    align-self: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+span{
+    color:red;
+}
+.box{
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    position: relative;
+}
+
+#password{
+    position: relative;
+}
+#confirmpwd{
+    position: relative;
+}
+
+#icon{
+    position: absolute;
+    bottom: 195px;
+    right: 75px;
+    text-align: left;
+    clip: auto;
+
+    
+}
+#icon2{
+    position: absolute;
+    bottom: 125px;
+    right: 75px;
+    text-align: left;
+    clip: auto;
+    
+
+    
+}
